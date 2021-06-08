@@ -1,14 +1,11 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 ---
-
 # Getting Started
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[new.docusaurus.io](https://new.docusaurus.io)**.
+There's multiple ways to use budgetzero.
+1. On the official [app.budgetzero.io](https://app.budgetzero.io) page.
+2. Installing the desktop app (Windows or Mac). [Download here](https://github.com/budgetzero/budgetzero/releases/latest)
+3. Self host the web app. You can either deploy the docker image or build and host the static files on your own webserver. See deployment section below for more details. 
 
 ## Generate a new site
 

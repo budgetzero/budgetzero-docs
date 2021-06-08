@@ -10,6 +10,14 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      // "light" | "dark"
+      defaultMode: 'light',
+
+      // Hides the switch in the navbar
+      // Useful if you want to support a single color mode
+      disableSwitch: true,
+    },
     navbar: {
       title: 'My Site',
       logo: {
@@ -22,6 +30,11 @@ module.exports = {
           docId: 'intro',
           position: 'left',
           label: 'Docs',
+        },
+        {
+          href: 'https://app.budgetzero.io',
+          label: 'Start Budgeting',
+          position: 'right',
         },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {

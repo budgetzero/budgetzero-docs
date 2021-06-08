@@ -23,3 +23,13 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #455a64;
+  --ifm-color-primary-dark: #3e515a;
+  --ifm-color-primary-darker: #3b4c55;
+  --ifm-color-primary-darkest: #303f46;
+  --ifm-color-primary-light: #4c636e;
+  --ifm-color-primary-lighter: #4f6773;
+  --ifm-color-primary-lightest: #5a7582;
+}
