@@ -10,9 +10,23 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <img className="logo" src="../../static/img/logo.png"></img>
+      <div className="container red">
+
+      <img className="logo" src="../../static/img/logo.png"></img>
+        {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
+        <h1><strong>Control your money. </strong> Control your data.</h1>
+		<p>Free, open-source, offline-first budgeting. Zero-based envelope budgeting done right -- with no strings attached. </p>
+
+
+		<a href="https://github.com/budgetzero/budgetzero/releases/latest">Download for Desktop</a> or
+		<a href="https://github.com/budgetzero/budgetzero#deployment">Self Host</a>
+        
+
+		<div>
+			<img src="../../static/img/screenshot_transactions.png" alt="Screenshot" class="screenshot-main" />
+		</div>
+      
+          
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link

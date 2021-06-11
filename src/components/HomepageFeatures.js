@@ -36,7 +36,7 @@ function Feature({img, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img className={styles.featureSvg} alt={title} src={img} />
+        <img className={styles.featureSvg} className="screenshot" alt={title} src={img} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

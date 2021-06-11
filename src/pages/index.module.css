@@ -10,6 +10,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-color: #ececec ;
 }
 
 @media screen and (max-width: 966px) {
@@ -24,6 +25,3 @@
   justify-content: center;
 }
 
-.logo {
-  width: 200px;
-}

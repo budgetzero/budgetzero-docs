@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
@@ -19,10 +19,10 @@ module.exports = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo_white.png',
       },
       items: [
         {
@@ -42,6 +42,7 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+    
       ],
     },
     footer: {

@@ -8,7 +8,7 @@
 /* You can override the default Infima variables here. */
 :root {
   
-  --ifm-color-primary-dark: rgb(33, 175, 144);
+  /* --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
   --ifm-color-primary-light: rgb(70, 203, 174);
@@ -16,13 +16,27 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 
+  --ifm-hero-background-color: #ececec; */
 
+  --ifm-menu-color-active: #29946d;
+  --ifm-navbar-link-hover-color: #29946d;
+  --ifm-color-primary: #29946d
 }
 
 html[data-theme='dark'] {
-  --ifm-color-primary: #ececec ;
-  --ifm-background-color: #455A64;
+  /* --ifm-color-primary: #ececec ; */
+  /* --ifm-background-color: #455A64;
   --ifm-accent-color: #8E292F;
+
+  --ifm-hero-background-color: #ececec; */
+/* 
+  --ifm-color-primary: #455a64;
+  --ifm-color-primary-dark: #3e515a;
+  --ifm-color-primary-darker: #3b4c55;
+  --ifm-color-primary-darkest: #303f46;
+  --ifm-color-primary-light: #4c636e;
+  --ifm-color-primary-lighter: #4f6773;
+  --ifm-color-primary-lightest: #5a7582; */
 }
 
 .docusaurus-highlight-code-line {
@@ -32,12 +46,37 @@ html[data-theme='dark'] {
   padding: 0 var(--ifm-pre-padding);
 }
 
-html[data-theme='dark'] {
-  --ifm-color-primary: #455a64;
-  --ifm-color-primary-dark: #3e515a;
-  --ifm-color-primary-darker: #3b4c55;
-  --ifm-color-primary-darkest: #303f46;
-  --ifm-color-primary-light: #4c636e;
-  --ifm-color-primary-lighter: #4f6773;
-  --ifm-color-primary-lightest: #5a7582;
+.logo {
+  width: 400px;
+}
+
+.screenshot-main {
+	max-width: 600px;
+	height: auto;
+	display: block;
+	/* box-shadow: 6px 6px 10px grey; */
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #DDD url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2244%22%20height%3D%2212%22%20viewBox%3D%220%200%2044%2012%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3C%2Fsvg%3E') 4px 4px no-repeat;
+	padding: 20px 0 0 0;
+	position: relative;
+}
+
+.screenshot {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	/* box-shadow: 6px 6px 10px grey; */
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	background: #DDD url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2244%22%20height%3D%2212%22%20viewBox%3D%220%200%2044%2012%22%3E%3Ccircle%20cx%3D%226%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2222%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%226%22%20r%3D%224%22%20fill%3D%22%23eee%22%20%2F%3E%3C%2Fsvg%3E') 4px 4px no-repeat;
+	padding: 20px 0 0 0;
+	position: relative;
+}
+
+.button {
+  background-color: #8E292F;
+  color: white !important;
 }
