@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     colorMode: {
       // "light" | "dark"
-      defaultMode: 'light',
+      defaultMode: 'dark',
 
       // Hides the switch in the navbar
       // Useful if you want to support a single color mode

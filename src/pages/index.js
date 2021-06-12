@@ -18,7 +18,7 @@ function HomepageHeader() {
         <p>Free, open-source, offline-first budgeting. Zero-based envelope budgeting done right -- with no strings attached. </p>
 
         <div >
-          <img src="../../static/img/screenshot_transactions.png" alt="Screenshot" class="screenshot-main" />
+          <img src={require('@site/static/img/screenshot_transactions.png').default} alt="Screenshot" class="screenshot-main" />
         </div>
 
         {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
