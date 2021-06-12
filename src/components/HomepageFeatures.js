@@ -1,12 +1,11 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
-require('../../static/img/screenshot_budget.png')
 
 const FeatureList = [
   {
     title: 'Envelope Based Budgeting',
-    img: '../../static/img/screenshot_budget.png',
+    img: require('@site/static/img/screenshot_import.png').default,
     description: (
       <>
         Stop playing catch-up. Direct your money where to go.
