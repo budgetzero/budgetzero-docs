@@ -86,3 +86,7 @@ html[data-theme='dark'] {
 .heroText {
   color: rgb(58, 58, 58) !important;
 }
+
+.downloadDiv {
+  margin-top:20px
+}

@@ -14,17 +14,12 @@ function HomepageHeader() {
 
         <img className="logo" src="../../static/img/logo.png"></img>
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
-        <h1><strong>Control your money. </strong> Control your data.</h1>
+        <h1 style={{color: '#263238'}}>Control your money. Control your data.</h1>
         <p>Free, open-source, offline-first budgeting. Zero-based envelope budgeting done right -- with no strings attached. </p>
-
-
-
-
 
         <div >
           <img src="../../static/img/screenshot_transactions.png" alt="Screenshot" class="screenshot-main" />
         </div>
-
 
         {/* <p className="hero__subtitle">{siteConfig.tagline}</p> */}
         <div className={styles.buttons}>
@@ -35,8 +30,8 @@ function HomepageHeader() {
           </Link>
 
         </div>
-        <div>
-        <a href="https://github.com/budgetzero/budgetzero/releases/latest">Download for Desktop</a> or
+        <div className="downloadDiv">
+        <a href="https://github.com/budgetzero/budgetzero/releases/latest">Download for Desktop</a> <span>or </span>
 		    <a href="https://github.com/budgetzero/budgetzero#deployment">Self Host</a>
         </div>
       </div>
