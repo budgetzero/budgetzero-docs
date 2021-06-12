@@ -39,8 +39,8 @@ function Feature({img, title, description}) {
         <img className={styles.featureSvg} className="screenshot" alt={title} src={img} />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <h3 className="heroText">{title}</h3>
+        <p className="heroText">{description}</p>
       </div>
     </div>
   );
