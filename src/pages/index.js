@@ -12,7 +12,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container red">
 
-        <img className="logo" src="../../static/img/logo.png"></img>
+        <img className="logo" src={require('@site/static/img/logo.png').default}></img>
         {/* <h1 className="hero__title">{siteConfig.title}</h1> */}
         <h1 style={{color: '#263238'}}>Control your money. Control your data.</h1>
         <p>Free, open-source, offline-first budgeting. Zero-based envelope budgeting done right -- with no strings attached. </p>

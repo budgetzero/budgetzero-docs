@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Envelope Based Budgeting',
-    img: require('@site/static/img/screenshot_import.png').default,
+    img: require('@site/static/img/screenshot_budget.png').default,
     description: (
       <>
         Stop playing catch-up. Direct your money where to go.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Easy Import',
-    img: '../../static/img/screenshot_import.png',
+    img: require('@site/static/img/screenshot_import.png').default,
     description: (
       <>
         Easily import transactions from CSV, OFX or QFX.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Track Your Progress',
-    img: '../../static/img/screenshot_reports.png',
+    img: require('@site/static/img/screenshot_reports.png').default,
     description: (
       <>
         View customizable reports on your financial progress.
