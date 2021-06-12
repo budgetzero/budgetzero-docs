@@ -28,14 +28,14 @@ module.exports = {
         {
           type: 'doc',
           docId: 'intro',
-          position: 'left',
+          position: 'right',
           label: 'Docs',
         },
-        {
-          href: 'https://app.budgetzero.io',
-          label: 'Start Budgeting',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://app.budgetzero.io',
+        //   label: 'Start Budgeting',
+        //   position: 'right',
+        // },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/budgetzero/budgetzero',
@@ -61,34 +61,34 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Reddit',
+              href: 'https://www.reddit.com/r/budgetzero/',
             },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
+            // {
+            //   label: 'Discord',
+            //   href: 'https://discordapp.com/invite/docusaurus',
+            // },
+            // {
+            //   label: 'Twitter',
+            //   href: 'https://twitter.com/docusaurus',
+            // },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
+            // {
+            //   label: 'Blog',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/budgetzero/budgetzero',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()}. Built with Docusaurus.`,
+      // copyright: `Copyright © ${new Date().getFullYear()}.`,
     },
   },
   presets: [
