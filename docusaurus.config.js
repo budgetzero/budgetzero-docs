@@ -31,11 +31,12 @@ module.exports = {
           position: 'right',
           label: 'Docs',
         },
-        // {
-        //   href: 'https://app.budgetzero.io',
-        //   label: 'Start Budgeting',
-        //   position: 'right',
-        // },
+        {
+          href: 'https://app.budgetzero.io',
+          label: 'Start Budgeting',
+          position: 'right',
+          className: 'open-app-btn',
+        },
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/budgetzero/budgetzero',
