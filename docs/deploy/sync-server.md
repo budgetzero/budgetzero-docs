@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Selfhost a sync server
+# Sync Server
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 

@@ -2,29 +2,16 @@
 sidebar_position: 0
 ---
 # Getting Started
-There's multiple ways to use budgetzero.
-1. On the official [app.budgetzero.io](https://app.budgetzero.io) page.
-2. Installing the desktop app (Windows or Mac). [Download here](https://github.com/budgetzero/budgetzero/releases/latest)
-3. Self host the web app. You can either deploy the docker image or build and host the static files on your own webserver. See deployment section below for more details. 
+There are multiple ways to use budgetzero.
 
-## Generate a new site
+#### 1. Use the web app hosted at [https://app.budgetzero.io](https://app.budgetzero.io). 
 
-Generate a new Docusaurus site using the **classic template**:
+#### 2. Install a [desktop app](https://github.com/budgetzero/budgetzero/releases/latest) (Windows or Mac). 
 
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
+#### 3. **[Self host the web app](../deploy/deploy.md)**. 
 
-## Start your site
 
-Run the development server:
 
-```shell
-cd my-website
+## Data
 
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+## ?
