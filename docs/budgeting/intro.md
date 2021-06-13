@@ -6,3 +6,6 @@ sidebar_position: 0
 
 ### Intro to budgetzero
 
+:::caution
+This section is under construction
+:::
