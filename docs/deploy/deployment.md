@@ -6,6 +6,14 @@ sidebar_position: 1
 
 You can either deploy the docker image or build and host the static files on your own web server. 
 
+:::info
+
+This section only deals with deploying the client-side budgetzero web app. For instructions on setting up the __completely optional__ Sync Server [see the guide](sync-server). 
+
+:::
+
+
+
 ## Docker
 
 Pull docker image:
