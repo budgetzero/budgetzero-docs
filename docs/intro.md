@@ -15,7 +15,7 @@ There are multiple ways to use budgetzero.
 
 2. Install a [desktop app](https://github.com/budgetzero/budgetzero/releases/latest) (Windows or Mac). 
 
-3. **[Self host the web app](deploy/deploy.md)**. 
+3. **[Self host the web app](deploy/deploy)**. 
 
 
 
