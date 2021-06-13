@@ -32,7 +32,7 @@ function HomepageHeader() {
         </div>
         <div className="downloadDiv">
         <a href="https://github.com/budgetzero/budgetzero/releases/latest">Download for Desktop</a> <span>or </span>
-		    <a href="https://github.com/budgetzero/budgetzero#deployment">Self Host</a>
+		    <a href="docs/advanced/deployment">Self Host</a>
         </div>
       </div>
     </header>
