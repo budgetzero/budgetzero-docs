@@ -39,8 +39,10 @@ module.exports = {
         // {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/budgetzero/budgetzero',
-          label: 'GitHub',
+          label: ' ',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
     
       ],
