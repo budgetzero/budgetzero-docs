@@ -8,7 +8,7 @@ sidebar_position: 0
 
 budgetzero is writen in JavaScript with the [vuejs](https://vuejs.org/) framework.  
 
-All data is stored client-side within the browser using [PouchDB](https://pouchdb.com/). The desktop apps are built using (Electron)[https://www.electronjs.org/] and are functionally the same as using the browser verison.
+All data is stored client-side within the browser using [PouchDB](https://pouchdb.com/). The desktop apps are built using [Electron](https://www.electronjs.org/) and are functionally the same as using the browser verison.
 
 ## Syncing
 
@@ -60,7 +60,6 @@ The ```_id``` field is of the format ```b_{budgetID}_account_{accountID}```.
     "note":null,
     "sort":0,
     "onBudget":true,
-    "balanceIsNegative":false,
     "_id":"b_d9a8045f-8f05-4c53-b900-6586189c65bf_account_f171f6f0-2f5c-49d9-8308-45c756a07d08"
 }
 ```
@@ -119,6 +118,10 @@ The ```_id``` field is of the format ```b_{budgetID}_payee_{payeeID}```.
 ### Transaction
 
 The ```_id``` field is of the format ```b_{budgetID}_transaction_{transactionID}```.
+
+:::note
+Split transactions are not yet supported by budgetzero
+:::
 
 ```
 {
