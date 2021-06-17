@@ -24,8 +24,11 @@ These documents have the following schema:
 
 ### Budget Root
 
-The ```_id``` field is of the format ```budget_{budgetID}```, where ```{budgetID}``` is a [uuid](https://www.npmjs.com/package/uuidv4) shared across all documents within that budget. 
+This doc is used to identify and specify the entire budget.
 
+```_id```: format is ```budget_{budgetID}```, where ```{budgetID}``` is a [uuid](https://www.npmjs.com/package/uuidv4) shared across all documents within that budget. 
+
+Example:
 ```
 {
     "name":"empty_budget",
@@ -38,8 +41,11 @@ The ```_id``` field is of the format ```budget_{budgetID}```, where ```{budgetID
 
 ### Budget Opened
 
-The ```_id``` field is of the format ```budget-opened_{budgetID}```, where ```{budgetID}``` is a [uuid](https://www.npmjs.com/package/uuidv4) shared across all documents within that budget. 
+This doc is used to store when a budget file is last opened. 
 
+```_id```: format is ```budget-opened_{budgetID}```, where ```{budgetID}``` is a [uuid](https://www.npmjs.com/package/uuidv4) shared across all documents within that budget. 
+
+Example:
 ```
 {
     "opened":"2021-06-13T14:53:47.028Z",
@@ -49,8 +55,9 @@ The ```_id``` field is of the format ```budget-opened_{budgetID}```, where ```{b
 
 ### Account
 
-The ```_id``` field is of the format ```b_{budgetID}_account_{accountID}```.
+```_id```: format is ```b_{budgetID}_account_{accountID}```.  
 
+Example:
 ```
 {
     "type":"CHECKING",
@@ -67,8 +74,9 @@ The ```_id``` field is of the format ```b_{budgetID}_account_{accountID}```.
 
 ### Master Category
 
-The ```_id``` field is of the format ```b_{budgetID}_master-category_{masterCategoryID}```.
+```_id```: format is ```b_{budgetID}_master-category_{masterCategoryID}```.  
 
+Example:
 ```
 {
     "name":"Giving",
@@ -79,8 +87,9 @@ The ```_id``` field is of the format ```b_{budgetID}_master-category_{masterCate
 ```
 
 ### Category
-The ```_id``` field is of the format ```b_{budgetID}_category_{categoryID}```.
+```_id```: format is ```b_{budgetID}_category_{categoryID}```.  
 
+Example:
 ```
 {
     "name":"Fuel",
@@ -93,8 +102,11 @@ The ```_id``` field is of the format ```b_{budgetID}_category_{categoryID}```.
 
 ### Budget Amount
 
-The ```_id``` field is of the format ```b_{budgetID}_category_{m_categoryID}```.
+```_id```: format is ```b_{budgetID}_category_{m_categoryID}```.  
+```budget```: budgeted amount multiplied by 100. e.g. $15.10 is stored as "1510"  
+```overspending```: if ```true``` then subtracts negative balance from next month's category, rather than next month's available-to-budget. Otherwise it can be ```null``` or ```false```.  
 
+Example:
 ```
 {
     "budget":2000,
@@ -106,8 +118,9 @@ The ```_id``` field is of the format ```b_{budgetID}_category_{m_categoryID}```.
 
 ### Payee
 
-The ```_id``` field is of the format ```b_{budgetID}_payee_{payeeID}```.
+```_id```: format is ```b_{budgetID}_payee_{payeeID}```.
 
+Example:
 ```
 {
       "name":"TestPayee",
@@ -117,7 +130,8 @@ The ```_id``` field is of the format ```b_{budgetID}_payee_{payeeID}```.
 
 ### Transaction
 
-The ```_id``` field is of the format ```b_{budgetID}_transaction_{transactionID}```.
+```_id```: format is ```b_{budgetID}_transaction_{transactionID}```.  
+```value```: amount multiplied by 100. e.g. $15.10 is stored as "1510"  
 
 :::note
 Split transactions are not yet supported by budgetzero
